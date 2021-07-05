@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+.logo {
+  display: block;
+  margin: auto auto;
+  height: 156px;
+
+}
+
+.logobg {
+  background-color: #f7f7f7;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2f31;
+  height: 70px;
+}
+
+.contain a {
+  text-decoration: none;
+  color: white;
+}
+
+.contain a:hover,
+.contain a:active {
+  color: grey;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2f31;
+  height: 70px;
+}
+.topimg img {
+  width: 100%;
+}
+
+.contain a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.navlink{
+  /* display: inline-block; */
+  position: relative;
+  padding-left: 25px;
+}
+#estate{
+  position: absolute;
+  top: 995px;
+  left: 190px;
+  width: 500px;
+  height: 400px;
+}
+#estate2{
+  position: absolute;
+  top: 995px;
+  left: 70px;
+}
+.estate1{
+    width: 280px;
+    display: block;
+    position: absolute;
+    word-wrap: break-word;
+}
+.accommodation1{
+    width: 260px;
+    display: block;
+    position: absolute;
+    word-wrap: break-word;
+    font: inherit;
+  }
+  #para{
+    font-size: 15px;
+    top: 1055px;
+    left: 816px;
+    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+#para1{
+  font-size: 15px;
+  top: 1595px;
+  left: 190px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+#head{
+  font-size: 30px;
+  top: 1000px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  left: 817px;
+  overflow: hidden;
+}
+#head2{
+  font-size: 30px;
+  top: 1540px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  left: 190px;
+}
+
+.btn {
+  /* border-radius: 3px; */
+  width: 254px;
+  color: white;
+  background-color: #2b2f31;;
+  padding: 14px 5px;
+  margin: 2px;
+  border: grey;
+  font-size: medium;
+  cursor: pointer;
+  /* font-family: 'Baloo Bhai 2', cursive; */
+  font-family: inherit;
+}
+
+.btn:hover {
+  color: rgb(0, 0, 0);
+}
+.btn1 {
+  /* border-radius: 3px; */
+  width: 260px;
+  color: white;
+  background-color: #2b2f31;;
+  padding: 14px 5px;
+  margin: 2px;
+  border: grey;
+  font-size: medium;
+  cursor: pointer;
+  /* font-family: 'Baloo Bhai 2', cursive; */
+  font-family: inherit;
+}
+
+.btn1:hover {
+  color: rgb(0, 0, 0);
+}
+.four{
+  display: block;
+  position: absolute;
+  top: 1455px;
+  left: 460px;
+  padding: 25px;
+  margin: 15px;
+}
+.four2{
+  display: block;
+  position: absolute;
+  top: 1655px;
+  left: 460px;
+  padding: 25px;
+  margin: 15px;
+}
+/* Slideshow container */
+.slideshow-container1 {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container1 {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+.test{
+  top: 1978px;
+  width: 100%;
+  position: absolute;
+}
+.btn3 {
+  /* border-radius: 3px; */
+  width: 100%;
+  color: white;
+  background-color: gray;;
+  padding: 25px 5px;
+  margin: 2px;
+  border: grey;
+  font-size: 25px;
+  cursor: pointer;
+  /* font-family: 'Baloo Bhai 2', cursive; */
+  font-family: inherit;
+  position: absolute;
+  /* justify-content: center; */
+  top: 1920px;
+
+}
+.btn3:hover {
+  color: rgb(0, 0, 0);
+}
+.im{
+  position: absolute;
+  top: 225px;
+}
