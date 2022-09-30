@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     background-color: #2b2f31;
-    height: 70px;
+    height: 71px;
   }
   
   .flex-container a {
@@ -25,7 +25,7 @@
     color: grey;
 }
 .footer-dark {
-    padding:50px 0;
+    padding:52px 0;
     color:#f0f9ff;
     background-color:#282d32;
   }
@@ -34,14 +34,14 @@
     margin-top:0;
     margin-bottom:12px;
     font-weight:bold;
-    font-size:16px;
+    font-size:17px;
   }
   
   .footer-dark ul {
     padding:0;
     list-style:none;
-    line-height:1.6;
-    font-size:14px;
+    line-height:2.6;
+    font-size:12px;
     margin-bottom:0;
   }
   
@@ -128,6 +128,6 @@
     text-align:center;
     padding-top:24px;
     opacity:0.3;
-    font-size:13px;
+    font-size:14px;
     margin-bottom:0;
   }
